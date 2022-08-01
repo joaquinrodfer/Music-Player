@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ae35fc02a6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="js/main.js" defer></script>
+    <title>Music Player</title>
+</head>
+
+<body>
+    <!-- Player -->
+    <main class="player">
+        <!-- Cover -->
+        <img class="cover" src="images/la-dificil.png" alt="Cover">
+
+        <!-- Title -->
+        <div class="title">Tremenda canción</div>
+
+        <!-- Author -->
+        <div class="author">Tremendo autor</div>
+
+        <!-- Progress bar -->
+        <section class="progressContainer">
+            <div class="time currentTime"></div>
+            <div class="progressBar">
+                <section class="bar"></section>
+            </div>
+            <div class="time duration"></div>
+        </section>
+
+        <!-- Buttons -->
+        <div class="buttons">
+            <button class="button backward"><i class="fa-solid fa-backward-fast backward"></i></button>
+            <button class="button play"><i class="fa-regular fa-circle-play play"></i><i
+                    class="fa-regular fa-circle-pause pause"></i></button>
+            <!-- <button class="button play"></button> -->
+            <button class="button next"><i class="fa-solid fa-forward next"></i></button>
+        </div>
+    </main>
+</body>
+
+</html>
